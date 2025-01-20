@@ -407,7 +407,7 @@ class Models(nn.Module):
             item_i_np = item_i.cpu().numpy()
             item_j_np = item_j.cpu().numpy()
 
-            time_block = np.clip(np.searchsorted(self.all_times, timestamp), 0, 100) # TODO: whether negative time block, 这样也有negative su
+            time_block = np.clip(np.searchsorted(self.all_times, timestamp), 0, 100)
             sensitivity_u = torch.from_numpy(self.user_sensitivity_all_times.iloc[user_u_np, time_block].values).to(self.device)
             frequency_i = torch.from_numpy(self.item_frequency_overall[item_i_np]).to(self.device)
             frequency_j = torch.from_numpy(self.item_frequency_overall[item_j_np]).to(self.device)

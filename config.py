@@ -13,7 +13,7 @@ class DefaultConfig(object):
         #  'CausalEPP']
         self.method = 'CausalEPP'
         # self.method = 'DICE'
-        self.val = True # TODO: set to False to see results
+        self.val = True
         self.test_only = False # False
         self.show_performance = True
         self.data_process = False
@@ -179,10 +179,10 @@ class DefaultConfig(object):
             self.lr = 0.01  # 学习率
             self.lamb = 0.001
         elif self.dataset == 'Amazon-Music':
-            self.n_layers = 3 # tsy: 2, default: 3
+            self.n_layers = 3 
             self.batch_size = 8192
             self.lr = 0.01  # 0.1  # 学习率, default: 0.01
-            self.lamb = 0.01  # 0.0001 # tsy: 0.0001, default: 0.01
+            self.lamb = 0.01 
         elif self.dataset == 'Ciao':
             self.n_layers = 2 # default: 2
             self.batch_size = 8192
