@@ -12,7 +12,7 @@ To address these issues, we propose a novel method called *CausalEPP* (Causal In
 Specifically, we first introduce a metric called “popularity sensitivity” to quantify each user’s preference for popular items. Then, we design a causal graph that integrates popularity sensitivity into the conformity effect, and apply deconfounded training to mitigate the popularity bias of the causal graph. During inference, we consider the evolution consistency between users and items to achieve a better recommendation.
 
 
-<!-- ## Causal Graph
+## Causal Graph
 ![Causal Graph](./CausalGraph.png)
 <!-- <img src="./CausalGraph.png" alt="Causal Graph" width="500" /> -->
 
