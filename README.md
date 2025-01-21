@@ -19,10 +19,10 @@ Specifically, we first introduce a metric called “popularity sensitivity” to
 Causal Graph with the consistency of popularity sensitivity and item popularity:
 - (A): Causal graph to describe the recommendation process that incorporates popularity sensitivity “S” into the conformity effect and disentangles quality “Q” from popularity “P”.
 - (B): During training, we cut off the influence from local popularity to items for deconfounded training.
-- (C): During inference, we intervene popularity sensitivity “𝑠∗” and local popularity “𝑝∗” for bias adjustment. -->
+- (C): During inference, we intervene popularity sensitivity “𝑠∗” and local popularity “𝑝∗” for bias adjustment.
 
 ## Algorithm:
-The algorithm illustrates the detailed steps of CausalEPP.:
+The algorithm illustrates the detailed steps of CausalEPP:
 
 ![Algorithm](./Algorithm_procedure.png)
 <!-- <img src="./Algorithm_procedure.png" alt="Algorithm" width="400" /> -->
