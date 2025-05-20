@@ -13,8 +13,8 @@ Specifically, we first introduce a metric called “popularity sensitivity” to
 
 
 ## Causal Graph
-![Causal Graph](./CausalGraph.png)
-<!-- <img src="./CausalGraph.png" alt="Causal Graph" width="500" /> -->
+<!-- ![Causal Graph](./CausalGraph.png) -->
+<img src="./CausalGraph.png" alt="Causal Graph" width="400" />
 
 Causal Graph with the consistency of popularity sensitivity and item popularity:
 - (A): Causal graph to describe the recommendation process that incorporates popularity sensitivity “S” into the conformity effect and disentangles quality “Q” from popularity “P”.
@@ -24,8 +24,8 @@ Causal Graph with the consistency of popularity sensitivity and item popularity:
 ## Algorithm:
 The algorithm illustrates the detailed steps of CausalEPP:
 
-![Algorithm](./Algorithm_procedure.png)
-<!-- <img src="./Algorithm_procedure.png" alt="Algorithm" width="400" /> -->
+<!-- ![Algorithm](./Algorithm_procedure.png) -->
+<img src="./Algorithm_procedure.png" alt="Algorithm" width="300" />
 
 
 ## Code Usage
