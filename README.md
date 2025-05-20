@@ -30,6 +30,15 @@ The algorithm illustrates the detailed steps of CausalEPP:
 
 ## Code Usage
 
+### Set up
+Create a python environment with python 3.9 and the packages in requirements
+
+install with pip (we recommend use conda):
+```
+pip install -r requirements.txt
+```
+
+
 ### Dataset Preparation
 We builds our code upon the code TIDE, and use the datasets as follows. 
 We used [Amazon-Music](https://jmcauley.ucsd.edu/data/amazon/), [Douban-movies](https://github.com/DeepGraphLearning/RecommenderSystems/blob/master/socialRec/README.md#douban-data), and Ciao. You can download the dataset into "/data" and rename the rating file as "ratings.csv". The code will process the data automatically when you run main.py
@@ -58,3 +67,5 @@ Set `self.method = 'CausalEPP'` to run the CausalEPP code, and `self.method = 'T
 After training, the well-trained model will in the directory `./model/Ciao/xx`, you can further intervene it to get the results. The parameters for intervention is in `config.py`: 
 - `dt_i` and `dt_u` indicate the evolution forecasting step for item popularity and popularity sensitivity, respectively. 
 - `rolling_window` indicates the rolling windows for moving average of both item popularity and popularity sensitivity. 
+
+
