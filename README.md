@@ -36,8 +36,6 @@ We used [Amazon-Music](https://jmcauley.ucsd.edu/data/amazon/), [Douban-movies](
 
 Note that file /lgcn_graph/Douban-movie/lgcn_graph_index.zip needs to be unzipped
 
-The data statistics:
-
 
 ### Preprocessing
 Use the jupyter notebook `Preprocessing.ipynb` to process the datasets for creating five files:
