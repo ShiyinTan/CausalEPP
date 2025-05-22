@@ -12,6 +12,21 @@ To address these issues, we propose a novel method called *CausalEPP* (Causal In
 Specifically, we first introduce a metric called “popularity sensitivity” to quantify each user’s preference for popular items. Then, we design a causal graph that integrates popularity sensitivity into the conformity effect, and apply deconfounded training to mitigate the popularity bias of the causal graph. During inference, we consider the evolution consistency between users and items to achieve a better recommendation.
 
 
+
+## Citation
+
+```
+@inproceedings{tan2025tamingrecommendationbiascausal,
+      title={Taming Recommendation Bias with Causal Intervention on Evolving Personal Popularity}, 
+      author={Shiyin Tan and Dongyuan Li and Renhe Jiang and Zhen Wang and Xingtong Yu and Manabu Okumura},
+      year={2025},
+      eprint={2505.14310},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2505.14310}, 
+}
+```
+
+
 ## Causal Graph
 <!-- ![Causal Graph](./CausalGraph.png) -->
 <img src="./CausalGraph.png" alt="Causal Graph" width="400" />
@@ -27,6 +42,10 @@ The algorithm illustrates the detailed steps of CausalEPP:
 <!-- ![Algorithm](./Algorithm_procedure.png) -->
 <img src="./Algorithm_procedure.png" alt="Algorithm" width="300" />
 
+
+## Performance with LightGCN backbone
+
+<img src="./performance_LG.jpg" alt="Performance" width="700" />
 
 ## Code Usage
 
