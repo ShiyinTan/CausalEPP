@@ -16,13 +16,11 @@ Specifically, we first introduce a metric called “popularity sensitivity” to
 ## Citation
 
 ```
-@inproceedings{tan2025tamingrecommendationbiascausal,
-      title={Taming Recommendation Bias with Causal Intervention on Evolving Personal Popularity}, 
-      author={Shiyin Tan and Dongyuan Li and Renhe Jiang and Zhen Wang and Xingtong Yu and Manabu Okumura},
-      year={2025},
-      eprint={2505.14310},
-      archivePrefix={arXiv},
-      url={https://arxiv.org/abs/2505.14310}, 
+@article{tan2025taming,
+  title={Taming Recommendation Bias with Causal Intervention on Evolving Personal Popularity},
+  author={Tan, Shiyin and Li, Dongyuan and Jiang, Renhe and Wang, Zhen and Yu, Xingtong and Okumura, Manabu},
+  journal={arXiv preprint arXiv:2505.14310},
+  year={2025}
 }
 ```
 
